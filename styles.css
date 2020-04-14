@@ -95,9 +95,9 @@ header .profile-image:hover {
     border-radius: 5px;
     display: table;
     margin: 10px auto;
-    border: solid 6px black;
+    border: solid 6px white;
     font-weight: bold;
-    background-color: white;
+    background-color: #edd087;
 }
 
 .profesion {
@@ -135,6 +135,14 @@ ul.skills {
 
 .skills li:nth-child(odd) {
     background: #0399ff;
+}
+
+.mail {
+    background-color: orangered;
+    border-bottom: medium 3px black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 footer {
