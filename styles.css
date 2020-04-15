@@ -125,6 +125,8 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
+}
+
 .card:hover {
     border-color: #ff99ff;
 }
@@ -159,6 +161,7 @@ footer {
     width: 100%;
     min-height: 30px;
     padding: 20px 0 40px 20px;
+    border: black solid 10px;
 }
 
 footer .copyright {
@@ -219,7 +222,13 @@ a.social:hover {
     }
 /* flex2 display inline block to show al the boxes verticaly */
     .flex2 {
-        display: inline-block;
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: flex;
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
     }
 
     header {
