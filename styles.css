@@ -117,14 +117,16 @@ header .profile-image:hover {
 
 .card2 {
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px 40px 40px;
   width: 1000px;
   border: 4px solid #ccc;
   border-radius: 15px;
   background-color: #fff;
   transition: all .5s;
-
 }
+
 
 }
 
@@ -255,5 +257,54 @@ a.social:hover {
     }
 }
 
+/*experience.html*/
+
+
+/*end of experience.html*/
+
+
+/*contact.html*/
+
+.card3 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px 40px 40px;
+  width: 500px;
+
+  background-color: #fff;
+  border: 4px solid #ccc;
+  border-radius: 15px;
+  transition: all .5s;
+
+
+}
+
+.contact {
+  text-align: center;
+}
+
+q {
+  text-align: center;
+  margin-top: 4px;
+
+}
+
+.pa {
+  text-align: justify;
+}
+
+.top {
+  margin-bottom: 8px;
+}
+
+fieldset {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.detailes {
+  margin: 20px;
+}
 
 /* experience.html */
