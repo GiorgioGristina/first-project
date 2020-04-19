@@ -74,6 +74,7 @@ header {
 
 header {
     line-height: 1.5;
+
 }
 
 header .profile-image {
@@ -90,14 +91,14 @@ header .profile-image:hover {
 }
 
 .tag {
-    color: black;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     display: table;
     margin: 10px auto;
-    border: solid 6px white;
+
     font-weight: bold;
-    background-color: #edd087;
+
 }
 
 .profesion {
@@ -125,6 +126,7 @@ header .profile-image:hover {
   border-radius: 15px;
   background-color: #fff;
   transition: all .5s;
+
 }
 
 
@@ -164,7 +166,7 @@ footer {
     width: 100%;
     min-height: 30px;
     padding: 20px 0 40px 20px;
-    border: black solid 10px;
+
 }
 
 footer .copyright {
@@ -234,6 +236,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      flex: 1
     }
 
 
@@ -258,6 +261,9 @@ a.social:hover {
 }
 
 /*experience.html*/
+section > p{
+  text-align: left;
+}
 
 
 /*end of experience.html*/
@@ -269,8 +275,11 @@ a.social:hover {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 40px;
-  padding: 20px 40px 40px;
+  padding:  40px 70px 40px 70px;
+
   width: 500px;
+
+  font-size: 20px;
 
   background-color: #fff;
   border: 4px solid #ccc;
@@ -299,9 +308,10 @@ q {
 }
 
 fieldset {
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 10px;
   text-align: left;
+
 }
 .detailes {
   margin: 20px;
