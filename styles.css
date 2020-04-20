@@ -11,6 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #222;
     background: #edd087;
+
+
 }
 
 
@@ -49,7 +51,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: orange;
+    color: white;
 }
 
 .nav li {
@@ -78,9 +80,9 @@ header {
 }
 
 header .profile-image {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    margin: 30px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 3px solid white;
     transition: all .5s;
@@ -91,18 +93,20 @@ header .profile-image:hover {
 }
 
 .tag {
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 5px;
     display: table;
     margin: 10px auto;
-
+    border: 2px  #edd087 solid;
     font-weight: bold;
+    background-color:  #edd087;
 
 }
 
-.profesion {
-    color: yellow;
+.profession {
+    margin-bottom: 35px;
+    font-size: 30px;
 }
 
 .card {
@@ -116,21 +120,32 @@ header .profile-image:hover {
     transition: all .5s;
 }
 
+.contact{
+  margin: auto ;
+  padding: 20px 40px 40px;
+  max-width: 1100px;
+  text-align: left;
+  background: #fff;
+
+  border-radius: 15px;
+  transition: all .5s;
+
+}
+
 .card2 {
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
+
   padding: 20px 40px 40px;
   width: 1000px;
   border: 4px solid #ccc;
   border-radius: 15px;
   background-color: #fff;
   transition: all .5s;
-
+  height: auto;
 }
 
 
-}
+
 
 .card:hover {
     border-color: #ff99ff;
@@ -151,16 +166,10 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-    background: #0399ff;
+    background: grey;
 }
 
-.mail {
-    background-color: orangered;
-    border-bottom: medium 3px black;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
+
 
 footer {
     width: 100%;
@@ -236,7 +245,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
-      flex: 1
+
     }
 
 
@@ -318,3 +327,25 @@ fieldset {
 }
 
 /* experience.html */
+
+table{
+  margin: 40px auto 0px;
+  padding: 10px;
+
+
+}
+
+td,
+th{
+  padding: 5px;
+  background-color: #8fb6db;
+}
+
+td > a{
+  color: brown;
+}
+
+.card2 > p{
+  line-height: 30px;
+
+}
