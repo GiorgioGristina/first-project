@@ -233,7 +233,7 @@ a.social:hover {
         -ms-flex-pack: distribute;
         justify-content: space-around;
         margin: 0 auto;
-        flex-wrap: wrap; /* to put contact under my story n goal boxes*
+        flex-wrap: wrap; /* to put contact under my story n goal boxes*/
     }
 /* flex2 display inline block to show al the boxes verticaly */
     .flex2 {
